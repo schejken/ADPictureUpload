@@ -1,0 +1,69 @@
+﻿/* Place custom styles below */
+
+input#fileSelectorInput {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.pictureUrl {
+    margin-left: 10px;
+}
+
+.labelMargin {
+    margin-left: 10px;
+}
+
+/* Dialog CSS style*/
+.ngdialog.ngdialog-theme-default .ngdialog-content{
+    width: 380px;
+}
+#previewThumb img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#successMessage h3 {
+    text-align: center;
+}
+#CloseBtn input {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.border2px {
+    border: 2px solid #ddd
+}
+
+.marginTop {
+    margin-top: 20px;
+}
+
+.marginTop40 {
+    margin-top: 30px;
+}
+
+#adminSetting {
+    padding-top: 40px;
+}
+
+.theShadow {
+    box-shadow: 1px 1px 10px;
+}
+
+#approve {
+    padding-left: 20px;
+}
+
+p.col-sm-9 {
+    padding-left: 0px;
+}
+
+img.pictureUrl {
+  margin-bottom: 30px;
+}
+
+input#addFileButton {
+  margin-left: 15px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,25 @@
+﻿<div id="Settings">
+    <h2><span class="label label-primary">Settings Page</span></h2>
+    <br />
+    <div class="row col-md-7">
+        <div class="panel panel-default">
+            <div class="panel-heading">Current WCF url:</div>
+            <div class="panel-body">
+                {{wcfUrl}}
+            </div>
+        </div>
+    </div>
+    <div class="row col-md-7">
+        <div class="panel panel-default">
+            <div class="panel-heading">Exempel: http://test188:7000/ADUploadPicture/TemplateService.svc/web/ </div>
+            <div class="panel-body">
+                <input id="wcfInput" type="text" value="Enter Url for WCF" />
+                <input class="btn btn-default" id="wcfSubmit" type="button" value="Submit" ng-click="changeWCF()" />
+            </div>
+        </div>
+    </div>
+    <div class="row col-md-7">
+        <a href="#UploadPicture" class="btn btn-default">Back</a>
+        <a href="/sites/Developer/ADPictureUpload/Lists/ListConfig/AllItems.aspx" class="btn btn-default">Config List</a>
+    </div>
+</div>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Dialogs">
+    <File Path="Dialogs\UploadPicDialog.html" Url="Dialogs/UploadPicDialog.html" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

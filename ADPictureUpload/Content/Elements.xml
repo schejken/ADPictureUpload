@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap.min.css" Url="Content/bootstrap.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap-select.min.css" Url="Content/bootstrap-select.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap-timepicker.css" Url="Content/bootstrap-timepicker.css" ReplaceContent="TRUE" />
+    <File Path="Content\ngDialog.min.css" Url="Content/ngDialog.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\ngDialog-theme-default.min.css" Url="Content/ngDialog-theme-default.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\ngDialog-theme-plain.min.css" Url="Content/ngDialog-theme-plain.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\ng-grid.css" Url="Content/ng-grid.css" ReplaceContent="TRUE" />
+    <File Path="Content\Preem.SharePoint.Main.css" Url="Content/Preem.SharePoint.Main.css" ReplaceContent="TRUE" />
+    <File Path="Content\QUnit 1.14.0.css" Url="Content/QUnit 1.14.0.css" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

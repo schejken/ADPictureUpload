@@ -1,0 +1,46 @@
+﻿<div id="UploadController">
+    <div class="form-horizontal" role="form">
+        <div class="form-group newobject">
+            <div class="row col-md-4">
+                <div class="panel panel-default theShadow" style="height: 255px;">
+                    <div class=" panel-heading"><h4>Din aktuella profilbild</h4></div>
+                    <div class="panel-body pictureUrl"></div>
+
+                    <img class="pictureUrl" ng-src="{{imageUrl}}" alt="Alternate Text" />
+                </div>
+                <div class="panel panel-default theShadow">
+                    <div class="panel-heading"><h4>Välj en ny profilbild</h4></div>
+                    <input id="fileSelectorInput" type="file" /><br />
+                    <div id="approve" class="row">
+                        <input class="col-sm-1" type="checkbox" id="approvalCheckbox" name="Approval" value=" " ng-model="checked" />
+                        <p class="col-sm-9">Ja, jag godkänner att Preem publicerar och lagrar mitt personalfoto på Intranät, Personalsystem mail och Chat(Lync).</p>
+                    </div>
+                    <br />
+                    <div class="btn-group btn-group-lg">
+                        <input class="btn btn-default theShadow" id="addFileButton" type="button" value="Ladda Upp" ng-click="UploadFile()" ng-model="button" ng-disabled="!checked" />
+                    </div>
+                </div>
+                <br />
+                <div id="adminSetting">
+                    <a href="#Settings"><h3 class="labelMargin">Settings</h3></a>
+                </div>
+                <!--Hidden picDiv-->
+                <div id="theName" style="visibility: hidden">{{accountName}}</div>
+                <img id="previewPic" src="" style="visibility: hidden" alt="Your new image Pic" />
+            </div>
+            <!--<div class="col-md-4 border2px marginTop theShadow">-->
+            <div class="col-md-4">
+                <div class="panel panel-default theShadow" style="height: 255px;">
+                    <div class="panel-heading">
+                        <h4>Samtycke</h4>
+                    </div>
+                    <div class="panel-body">
+                        Att lägga ut personalfoto på intranät räknas enligt Personuppgiftslagen (PUL) som en behandling av personuppgift.
+                        Innan vi publicerar din personalbild vill Preem därför ha ditt godkännande. Vi vill också informera om att ditt namn, organisationstillhörighet,
+                        titel, telefonr och e-mail kommer finnas med i samband med bilderna. Bilderna kommer endast hanteras och publiceras internt på Preem.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

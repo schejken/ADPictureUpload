@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="App.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Preem.SharePoint.Ajax.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Preem.SharePoint.Main.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Angular\angular.min.js" Target="Scripts\Angular\" Type="ElementFile" />
+    <ProjectItemFile Source="Angular\angular-bootstrap-select.js" Target="Scripts\Angular\" Type="ElementFile" />
+    <ProjectItemFile Source="Angular\angular-locale_sv.js" Target="Scripts\Angular\" Type="ElementFile" />
+    <ProjectItemFile Source="Angular\angular-route.js" Target="Scripts\Angular\" Type="ElementFile" />
+    <ProjectItemFile Source="Angular\ngDialog.min.js" Target="Scripts\Angular\" Type="ElementFile" />
+    <ProjectItemFile Source="Angular\ng-grid-2.0.7.min.js" Target="Scripts\Angular\" Type="ElementFile" />
+    <ProjectItemFile Source="Bootstrap\bootbox.min.js" Target="Scripts\Bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="Bootstrap\bootstrap.min.js" Target="Scripts\Bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="Bootstrap\bootstrap-select.min.js" Target="Scripts\Bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="Bootstrap\bootstrap-timepicker.min.js" Target="Scripts\Bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="Bootstrap\ui-bootstrap-tpls-0.10.0.min.js" Target="Scripts\Bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="JQuery\jquery.inputmask.bundle.min.js" Target="Scripts\JQuery\" Type="ElementFile" />
+    <ProjectItemFile Source="JQuery\jquery.numberformatter-1.2.4.jsmin.js" Target="Scripts\JQuery\" Type="ElementFile" />
+    <ProjectItemFile Source="JQuery\jquery-1.8.2.intellisense.js" Target="Scripts\JQuery\" Type="ElementFile" />
+    <ProjectItemFile Source="JQuery\jquery-1.8.2.js" Target="Scripts\JQuery\" Type="ElementFile" />
+    <ProjectItemFile Source="JQuery\jquery-1.8.2.min.js" Target="Scripts\JQuery\" Type="ElementFile" />
+    <ProjectItemFile Source="Other\hashtable.js" Target="Scripts\Other\" Type="ElementFile" />
+    <ProjectItemFile Source="QUnit\QUnit 1.14.0.js" Target="Scripts\QUnit\" Type="ElementFile" />
+    <ProjectItemFile Source="UploadApp\UploadAppController.js" Target="Scripts\UploadApp\" Type="ElementFile" />
+    <ProjectItemFile Source="Angular\angular.min.js.map" Target="Scripts\Angular\" Type="ElementFile" />
+    <ProjectItemFile Source="Angular\imageupload.js" Target="Scripts\Angular\" Type="ElementFile" />
+    <ProjectItemFile Source="Service\UploadAppService.js" Target="Scripts\Service\" Type="ElementFile" />
+    <ProjectItemFile Source="UploadApp\SettingsController.js" Target="Scripts\UploadApp\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

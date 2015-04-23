@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="ViewTemplates">
+    <File Path="ViewTemplates\Sample.txt" Url="ViewTemplates/Sample.txt" ReplaceContent="TRUE" />
+    <File Path="ViewTemplates\UploadPicture.html" Url="ViewTemplates/UploadPicture.html" ReplaceContent="TRUE" />
+    <File Path="ViewTemplates\Settings.html" Url="ViewTemplates/Settings.html" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

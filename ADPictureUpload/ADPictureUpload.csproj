@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DA47681D-8634-4EE5-BF87-BEDA65CD6B49}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ADPictureUpload</RootNamespace>
+    <AssemblyName>ADPictureUpload</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>11.1</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{69565bdd-b740-4df1-be68-6bd58d66bed1}</AppFeaturePartId>
+    <WspPartId>{b31b214e-ea48-4f5a-936e-f340069c0b95}</WspPartId>
+    <WorkflowPartId>{f67aa55f-0974-4def-b6dc-334e543686bb}</WorkflowPartId>
+    <CspkgPartId>{6af17117-fda2-4c71-a2d8-4e0e99305777}</CspkgPartId>
+    <SqlPackagePartId>{d14840b0-139a-4863-a1d4-653262ca0221}</SqlPackagePartId>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-select.min.css" />
+    <Content Include="Content\bootstrap-timepicker.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\ng-grid.css" />
+    <Content Include="Content\ngDialog-theme-default.min.css" />
+    <Content Include="Content\ngDialog-theme-plain.min.css" />
+    <Content Include="Content\ngDialog.min.css" />
+    <Content Include="Content\Preem.SharePoint.Main.css" />
+    <Content Include="Content\QUnit 1.14.0.css" />
+    <Content Include="Dialogs\UploadPicDialog.html" />
+    <Content Include="ListConfig\Elements.xml" />
+    <Content Include="ListConfig\ListConfigInstance\Elements.xml" />
+    <Content Include="ListConfig\Schema.xml" />
+    <Content Include="Pages\Default.aspx" />
+    <Content Include="Pages\UnitTests.aspx" />
+    <Content Include="Scripts\Angular\angular-bootstrap-select.js" />
+    <Content Include="Scripts\Angular\angular-locale_sv.js" />
+    <Content Include="Scripts\Angular\angular-route.js" />
+    <Content Include="Scripts\Angular\angular.min.js" />
+    <Content Include="Scripts\Angular\imageupload.js" />
+    <Content Include="Scripts\Angular\ng-grid-2.0.7.min.js" />
+    <Content Include="Scripts\Angular\ngDialog.min.js" />
+    <Content Include="Scripts\Bootstrap\bootbox.min.js" />
+    <Content Include="Scripts\Bootstrap\bootstrap-select.min.js" />
+    <Content Include="Scripts\Bootstrap\bootstrap-timepicker.min.js" />
+    <Content Include="Scripts\Bootstrap\bootstrap.min.js" />
+    <Content Include="Scripts\Bootstrap\ui-bootstrap-tpls-0.10.0.min.js" />
+    <Content Include="Scripts\JQuery\jquery-1.8.2.intellisense.js" />
+    <Content Include="Scripts\JQuery\jquery-1.8.2.js" />
+    <Content Include="Scripts\JQuery\jquery-1.8.2.min.js" />
+    <Content Include="Scripts\JQuery\jquery.inputmask.bundle.min.js" />
+    <Content Include="Scripts\JQuery\jquery.numberformatter-1.2.4.jsmin.js" />
+    <Content Include="Scripts\Other\hashtable.js" />
+    <Content Include="Scripts\Preem.SharePoint.Ajax.js" />
+    <Content Include="Scripts\Preem.SharePoint.Main.js" />
+    <Content Include="Scripts\QUnit\QUnit 1.14.0.js" />
+    <Content Include="Scripts\Service\UploadAppService.js" />
+    <Content Include="Scripts\UploadApp\SettingsController.js" />
+    <Content Include="Scripts\UploadApp\UploadAppController.js" />
+    <Content Include="Value\Elements.xml" />
+    <Content Include="ViewTemplates\Elements.xml" />
+    <Content Include="ViewTemplates\Sample.txt" />
+    <Content Include="ViewTemplates\Settings.html" />
+    <Content Include="ViewTemplates\UploadPicture.html" />
+    <None Include="Dialogs\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7b68d7fc-14af-4557-88c3-bb8c4a4c0b6f}</SharePointProjectItemId>
+    </None>
+    <None Include="ListConfig\ListConfigInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d56869d9-774a-4699-9a3e-a87cf6c1d9fa}</SharePointProjectItemId>
+    </None>
+    <None Include="ListConfig\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f7841be9-463c-4871-af2e-185becd02a17}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{02d05671-f818-4d91-beee-f7fd26fd03dc}</SharePointProjectItemId>
+    </None>
+    <Content Include="Dialogs\Elements.xml" />
+    <Content Include="Pages\Elements.xml" />
+    <None Include="Scripts\Angular\angular.min.js.map" />
+    <None Include="Value\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1a172bf0-c265-44b2-8aea-b918c0990e1b}</SharePointProjectItemId>
+    </None>
+    <None Include="ViewTemplates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{90c711ee-abaf-43d8-a19a-4da78e59e8ec}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d14840b0-139a-4863-a1d4-653262ca0221}</SharePointProjectItemId>
+    </None>
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d4d9b4d7-0762-4beb-8338-df5aaca9969b}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6db4cd9b-3df3-4bd5-8b55-75be55ceab15}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{feb85126-8140-43e1-bf82-4dad399beabf}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{b72f0a85-f315-4834-ba88-125d8ae8a3c4}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>
